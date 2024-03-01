@@ -24,6 +24,7 @@
 		278C8FBD2B84ABA80002AC5E /* TOCropViewController in Frameworks */ = {isa = PBXBuildFile; productRef = 278C8FBC2B84ABA80002AC5E /* TOCropViewController */; };
 		278C8FCB2B84B3760002AC5E /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278C8FCA2B84B3760002AC5E /* ListView.swift */; };
 		278C8FD22B8502680002AC5E /* OpenFoodFactsSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 278C8FD12B8502680002AC5E /* OpenFoodFactsSDK */; };
+		F5A21E9A2B92139100929C02 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = F5A21E992B92139100929C02 /* Localizable.xcstrings */; };
 		F5DE9EA62B8CDAF800E40374 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DE9EA52B8CDAF800E40374 /* ProductDetailView.swift */; };
 		F5DE9EA82B8CDB9600E40374 /* Onboarding1.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DE9EA72B8CDB9600E40374 /* Onboarding1.swift */; };
 		F5DE9EAA2B8CDBAA00E40374 /* Onboarding2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DE9EA92B8CDBAA00E40374 /* Onboarding2.swift */; };
@@ -47,6 +48,7 @@
 		278C8FAC2B84AAD70002AC5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		278C8FAF2B84AAD70002AC5E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		278C8FCA2B84B3760002AC5E /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		F5A21E992B92139100929C02 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		F5DE9EA52B8CDAF800E40374 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
 		F5DE9EA72B8CDB9600E40374 /* Onboarding1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding1.swift; sourceTree = "<group>"; };
 		F5DE9EA92B8CDBAA00E40374 /* Onboarding2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding2.swift; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 		278C8F9C2B84AAD60002AC5E = {
 			isa = PBXGroup;
 			children = (
+				F5A21E992B92139100929C02 /* Localizable.xcstrings */,
 				278C8FA72B84AAD60002AC5E /* BarcodeScanner1 */,
 				278C8FA62B84AAD60002AC5E /* Products */,
 			);
@@ -200,6 +203,7 @@
 			knownRegions = (
 				en,
 				Base,
+				it,
 			);
 			mainGroup = 278C8F9C2B84AAD60002AC5E;
 			packageReferences = (
@@ -223,6 +227,7 @@
 			files = (
 				278C8FB02B84AAD70002AC5E /* Preview Assets.xcassets in Resources */,
 				278C8FAD2B84AAD70002AC5E /* Assets.xcassets in Resources */,
+				F5A21E9A2B92139100929C02 /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,11 +386,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 1.0;
 				DEVELOPMENT_ASSET_PATHS = "\"BarcodeScanner1/Preview Content\"";
-				DEVELOPMENT_TEAM = 3B6HLC87UZ;
+				DEVELOPMENT_TEAM = JZX85Z36BA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Expiry catch";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
 				INFOPLIST_KEY_NSCameraUsageDescription = "To capture product photos";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -396,8 +403,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.francescaferrini.BarcodeScanner1;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.salvatoreflauto.BarcodeScanner1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -411,11 +418,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 1.0;
 				DEVELOPMENT_ASSET_PATHS = "\"BarcodeScanner1/Preview Content\"";
-				DEVELOPMENT_TEAM = 3B6HLC87UZ;
+				DEVELOPMENT_TEAM = JZX85Z36BA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Expiry catch";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
 				INFOPLIST_KEY_NSCameraUsageDescription = "To capture product photos";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -426,8 +435,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.francescaferrini.BarcodeScanner1;
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.salvatoreflauto.BarcodeScanner1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
