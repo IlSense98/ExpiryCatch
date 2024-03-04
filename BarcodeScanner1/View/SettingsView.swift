@@ -13,6 +13,7 @@ struct SettingsView: View {
     enum alertStyle {
         case sameDay, dayBefore, threedaysbefore
     }
+    @Environment (\.colorScheme) var colorScheme
     
     @State private var darkModeToggle: Bool = false
     @State private var notificationsToggle: Bool = false
@@ -32,7 +33,7 @@ struct SettingsView: View {
                 Text("Preferences")
                     .font(.title3)
                     .bold()
-                    .foregroundStyle(.black)
+                    .foregroundStyle(colorScheme == .dark ? .back1: .black)
             }
             
             //Notifications management
