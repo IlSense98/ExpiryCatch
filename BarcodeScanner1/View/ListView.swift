@@ -61,12 +61,12 @@ struct ListView: View {
                                                     .shadow(color: Color.black.opacity(0.2), radius: 4, x: 0, y: 2)
                                             )
                                             .padding(.top, 20)
-                                            
+                                            .padding(.trailing, 10)
                                             VStack {
                                                 Text(food.productName ?? "Name not found")
                                                     .foregroundColor(.black)
                                                     .bold()
-                                                    .padding()
+                                                    
                                                 
                                                 if let expirationDate = food.expirationDate {
                                                     if Calendar.current.isDateInTomorrow(expirationDate) || Calendar.current.isDateInToday(expirationDate) {Image(systemName: "exclamationmark.triangle")
@@ -121,12 +121,12 @@ struct ListView: View {
                                                     .shadow(color: Color.black.opacity(0.2), radius: 4, x: 0, y: 2)
                                             )
                                             .padding(.top, 20)
-                                            
+                                            .padding(.trailing, 40)
                                             VStack {
                                                 Text(food.productName ?? "Name not found")
                                                     .foregroundColor(.black)
                                                     .bold()
-                                                    .padding()
+                                                    
                                                 
                                                 if let expirationDate = food.expirationDate {
                                                     if Calendar.current.isDateInTomorrow(expirationDate) || Calendar.current.isDateInToday(expirationDate) {
