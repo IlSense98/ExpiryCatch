@@ -1,6 +1,9 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "" : {
+
+    },
     "\n            notifications to keep you on track!" : {
       "localizations" : {
         "it" : {
@@ -61,6 +64,9 @@
         }
       }
     },
+    " %@ " : {
+
+    },
     " and " : {
       "localizations" : {
         "it" : {
@@ -70,6 +76,15 @@
           }
         }
       }
+    },
+    "%@" : {
+
+    },
+    "About to expire!" : {
+
+    },
+    "Add" : {
+
     },
     "Alert" : {
       "localizations" : {
@@ -100,6 +115,9 @@
           }
         }
       }
+    },
+    "Cancel" : {
+
     },
     "Change the mood!" : {
 
@@ -149,6 +167,9 @@
         }
       }
     },
+    "Energy (kcal): %lld kcal" : {
+
+    },
     "Expiration date not available" : {
       "localizations" : {
         "it" : {
@@ -158,6 +179,9 @@
           }
         }
       }
+    },
+    "Expiration date: " : {
+
     },
     "Expiration date: %@" : {
       "localizations" : {
@@ -245,6 +269,9 @@
     "Notifications" : {
 
     },
+    "Nutrients:" : {
+
+    },
     "Nutrition grade: %@" : {
       "localizations" : {
         "it" : {
@@ -254,6 +281,9 @@
           }
         }
       }
+    },
+    "Nutritional information not available" : {
+
     },
     "OK" : {
       "localizations" : {
@@ -289,6 +319,7 @@
 
     },
     "Press to dismiss" : {
+      "extractionState" : "stale",
       "localizations" : {
         "it" : {
           "stringUnit" : {
@@ -318,6 +349,9 @@
         }
       }
     },
+    "Products" : {
+
+    },
     "REAL PRO!" : {
       "localizations" : {
         "it" : {
@@ -332,6 +366,7 @@
 
     },
     "Save Product" : {
+      "extractionState" : "stale",
       "localizations" : {
         "it" : {
           "stringUnit" : {
@@ -351,7 +386,11 @@
         }
       }
     },
+    "Scanned Code: " : {
+
+    },
     "Scanned Code: %@" : {
+      "extractionState" : "stale",
       "localizations" : {
         "it" : {
           "stringUnit" : {

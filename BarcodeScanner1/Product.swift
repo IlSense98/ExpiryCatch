@@ -179,7 +179,20 @@ class SavedFoodViewModel: ObservableObject, Identifiable{
             print("Failed to parse expiration date for product: \(product.productName ?? "Unknown")")
         }
     }
+    
+    func sortSavedFoodsByExpirationDate() {
+        savedFoods.sort { (food1, food2) -> Bool in
+            guard let date1 = food1.expirationDate, let date2 = food2.expirationDate else {
+                return false
+            }
+            return date1 < date2
+        }
+    }
+
 }
+
+
+
 
 
 struct SavedFoodModel: Hashable, Identifiable {
