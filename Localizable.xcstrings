@@ -101,6 +101,12 @@
         }
       }
     },
+    "Change the mood!" : {
+
+    },
+    "Change time" : {
+
+    },
     "consumed on time! " : {
       "localizations" : {
         "it" : {
@@ -111,6 +117,9 @@
         }
       }
     },
+    "Contact us" : {
+
+    },
     "Continue >" : {
       "localizations" : {
         "it" : {
@@ -120,6 +129,15 @@
           }
         }
       }
+    },
+    "Dark mode" : {
+
+    },
+    "Day before" : {
+
+    },
+    "Disable notifications" : {
+
     },
     "encouraging" : {
       "localizations" : {
@@ -201,6 +219,9 @@
         }
       }
     },
+    "Help" : {
+
+    },
     "Hot" : {
       "localizations" : {
         "it" : {
@@ -220,6 +241,9 @@
           }
         }
       }
+    },
+    "Notifications" : {
+
     },
     "Nutrition grade: %@" : {
       "localizations" : {
@@ -261,6 +285,9 @@
         }
       }
     },
+    "Preferences" : {
+
+    },
     "Press to dismiss" : {
       "localizations" : {
         "it" : {
@@ -300,6 +327,9 @@
           }
         }
       }
+    },
+    "Same day" : {
+
     },
     "Save Product" : {
       "localizations" : {
@@ -361,6 +391,12 @@
         }
       }
     },
+    "Support" : {
+
+    },
+    "Terms & policies" : {
+
+    },
     "The pasta is about to expire 🥲" : {
       "localizations" : {
         "it" : {
@@ -400,6 +436,9 @@
           }
         }
       }
+    },
+    "Three days before" : {
+
     },
     "to be " : {
       "localizations" : {

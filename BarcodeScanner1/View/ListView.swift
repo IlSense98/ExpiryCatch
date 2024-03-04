@@ -96,7 +96,7 @@ struct ListView: View {
                     }
             )
             .background(
-                NavigationLink(destination: SettingsView(), isActive: $isAnotherViewActive) { // Utilizziamo un'altra NavigationLink per navigare alla nuova vista
+                NavigationLink(destination: SettingsView(notificationTime: Date()), isActive: $isAnotherViewActive) { // Utilizziamo un'altra NavigationLink per navigare alla nuova vista
                     EmptyView()
                 }
             )
