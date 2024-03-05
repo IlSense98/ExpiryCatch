@@ -20,7 +20,7 @@ struct Onboarding1: View {
                     .multilineTextAlignment(.center)
                     .lineLimit(nil)
                     .frame(width: 325,height: 45)
-                    .foregroundColor(.color1)
+                    .foregroundColor(.green)
                     .offset(y:-50)
                     .padding(.top, 61)
                 
@@ -139,14 +139,14 @@ struct Onboarding1: View {
                     }
                     
                     Text("         You will receive ")
-                    + Text("fun").foregroundColor(.color1).bold()
+                    + Text("fun").foregroundColor(.green).bold()
                     + Text(" and ")
-                    + Text("encouraging").foregroundColor(.color1).bold()
+                    + Text("encouraging").foregroundColor(.green).bold()
                     + Text("\n            notifications to keep you on track!")
                     + Text("\n Foods will be so ")
-                    + Text("happy ").foregroundColor(.color1).bold()
+                    + Text("happy ").foregroundColor(.green).bold()
                     + Text("to be ")
-                    + Text("consumed on time! ").foregroundColor(.color1).bold()
+                    + Text("consumed on time! ").foregroundColor(.green).bold()
                 }
             }
         }

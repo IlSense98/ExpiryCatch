@@ -45,7 +45,7 @@ struct Onboarding2: View {
                     print("Continue")
                 }) {
                     Text("Continue >")
-                        .foregroundColor(.color1)
+                        .foregroundColor(.green)
                         .font(.system(size: 24))
                         .padding()
                 }

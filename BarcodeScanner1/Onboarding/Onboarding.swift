@@ -22,13 +22,13 @@ struct Onboarding: View {
                     .lineLimit(nil)
                     .padding(.bottom, 125.0)
                     .frame(width: 325,height: 45)
-                    .foregroundColor(.color1)
+                    .foregroundColor(.green)
                     .padding(.top, 70)
                 
                 ZStack{
                     Rectangle()
                         .fill()
-                        .foregroundColor(.color1)
+                        .foregroundColor(.green)
                         .frame(width: 300,height: 200)
                         .cornerRadius(10.0).shadow(radius: 5)
                         .padding(.bottom, 150)
@@ -51,9 +51,9 @@ struct Onboarding: View {
                  .padding(.bottom,20)
                 
                 Text("        Break out your device and start capturing \n               those barcodes like a ")
-                + Text("REAL PRO!").foregroundColor(.color1).bold()
+                + Text("REAL PRO!").foregroundColor(.green).bold()
                 + Text("\nDon't worry, there are no scores, just ")
-                + Text("food to save!").foregroundColor(.color1).bold()
+                + Text("food to save!").foregroundColor(.green).bold()
                 
             }
         } .onAppear {

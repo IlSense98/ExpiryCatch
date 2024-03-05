@@ -44,7 +44,7 @@ struct TabOnboarding: View {
                                 Rectangle()
                                     .frame(width: 20, height: 10)
                                     .cornerRadius(10)
-                                    .foregroundColor(.color1)
+                                    .foregroundColor(.green)
                             } else {
                                 Circle()
                                     .frame(width: 10, height: 10)
@@ -62,7 +62,7 @@ struct TabOnboarding: View {
                         print("Skip!")
                     }) {
                         Text("Skip")
-                            .foregroundColor(.color1)
+                            .foregroundColor(.green)
                             .font(.system(size: 24))
                             .padding()
                     }
